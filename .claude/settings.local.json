@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(taskkill /F /IM node.exe)",
+      "Bash(cmd *)",
+      "Bash(netstat -ano)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"testuser\\\\\",\\\\\"password\\\\\":\\\\\"test1234\\\\\"}\")",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/login -H \"Content-Type: application/json\" -d \"{\\\\\"username\\\\\":\\\\\"testuser\\\\\",\\\\\"password\\\\\":\\\\\"test1234\\\\\"}\")",
+      "Bash(ls D:/claude_code_project_demo/claude_code_treasure_game-initial/*.json)",
+      "Bash(ls D:/claude_code_project_demo/claude_code_treasure_game-initial/*.ts)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"testuser\",\"password\":\"test123\"}')",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"ab\",\"password\":\"123\"}')",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"brandnew\",\"password\":\"1234\"}')",
+      "Bash(curl -s http://localhost:3001/api/scores/me)",
+      "Bash(curl -s -X POST http://localhost:3001/api/auth/signup -H 'Content-Type: application/json' -d '{\"username\":\"newtest2\",\"password\":\"abcd\"}')",
+      "Bash(tasklist *)",
+      "Bash(taskkill //F //PID 2452)",
+      "Bash(taskkill //F //IM node.exe)",
+      "Bash(node -e ' *)",
+      "Bash(vercel --prod --yes)",
+      "Bash(vercel *)",
+      "Bash(git remote *)",
+      "Bash(gh *)",
+      "Bash(winget install *)",
+      "Bash(export PATH=\"$PATH:/c/Program Files/GitHub CLI\")"
+    ]
+  }
+}
